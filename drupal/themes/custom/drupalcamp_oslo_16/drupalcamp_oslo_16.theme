@@ -18,6 +18,6 @@ function drupalcamp_oslo_16_preprocess_block(&$variables) {
 function drupalcamp_oslo_16_preprocess_page(&$variables) {
   $config = \Drupal::config('system.site');
   $variables['site_name'] = $config->get('name');
-  $variables['camp_date'] = '12.-13. November';
+  $variables['camp_date'] = '12.-13. November 2016';
   $variables['photo_credit'] = t('Photo: Bjørnar Posse Sandboe');
 }
