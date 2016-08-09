@@ -1,0 +1,17 @@
+uuid: 64714ed9-dd4f-4934-8568-2a50a83755e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: News
+type: news
+description: 'Used for news articles. Typically something that goes on the front page and stuff.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

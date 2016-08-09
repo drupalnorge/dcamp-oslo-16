@@ -1,0 +1,12 @@
+base:
+  css:
+    component:
+      lib/css/bootstrap.css: { weight: -10 }
+      css/front.css: { }
+      css/overrides.css: { }
+      css/blocks.css: {}
+  js:
+    lib/js/bootstrap.js: {}
+    js/custom.js: {}
+  dependencies:
+    - core/jquery

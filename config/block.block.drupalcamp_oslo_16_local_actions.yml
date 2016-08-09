@@ -1,0 +1,20 @@
+uuid: 99f92725-a773-4084-aa15-32fe0e895f9f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupalcamp_oslo_16
+_core:
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
+id: drupalcamp_oslo_16_local_actions
+theme: drupalcamp_oslo_16
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

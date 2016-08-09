@@ -1,0 +1,22 @@
+uuid: b1bc7a58-f24e-4fa7-8fbc-35608a808843
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupalcamp_oslo_16
+_core:
+  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
+id: drupalcamp_oslo_16_local_tasks
+theme: drupalcamp_oslo_16
+region: content
+weight: -1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

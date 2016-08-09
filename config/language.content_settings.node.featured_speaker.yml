@@ -1,0 +1,11 @@
+uuid: 59e89986-a9fc-44ec-b22e-4311705c0c01
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.featured_speaker
+id: node.featured_speaker
+target_entity_type_id: node
+target_bundle: featured_speaker
+default_langcode: zxx
+language_alterable: false

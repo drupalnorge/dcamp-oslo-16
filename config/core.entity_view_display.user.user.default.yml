@@ -1,0 +1,27 @@
+uuid: 3c122223-7acb-4010-822a-fb902ccc4fe7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_user_picture
+  module:
+    - image
+    - user
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  field_user_picture:
+    weight: 6
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  member_for:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
