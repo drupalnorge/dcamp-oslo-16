@@ -10,3 +10,4 @@ base:
     js/custom.js: {}
   dependencies:
     - core/jquery
+    - core/drupal
