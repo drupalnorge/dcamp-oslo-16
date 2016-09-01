@@ -167,6 +167,9 @@ display:
     display_options:
       display_extenders: {  }
       path: news
+      menu:
+        enabled: true
+        expanded: false
     cache_metadata:
       max-age: -1
       contexts:

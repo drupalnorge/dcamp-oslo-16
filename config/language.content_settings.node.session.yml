@@ -1,16 +1,16 @@
-uuid: 59e89986-a9fc-44ec-b22e-4311705c0c01
+uuid: 3a7be1be-ba1a-4e89-baa5-8f8bdbd458d0
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.featured_speaker
+    - node.type.session
   module:
     - content_translation
 third_party_settings:
   content_translation:
     enabled: true
-id: node.featured_speaker
+id: node.session
 target_entity_type_id: node
-target_bundle: featured_speaker
+target_bundle: session
 default_langcode: site_default
 language_alterable: true

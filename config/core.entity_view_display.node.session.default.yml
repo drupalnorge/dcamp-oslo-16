@@ -1,0 +1,35 @@
+uuid: 1724c1e1-43fc-42ff-b3a2-8d1a3a4413ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.session.field_session_description
+    - field.field.node.session.field_session_time
+    - node.type.session
+  module:
+    - datetime
+    - text
+    - user
+id: node.session.default
+targetEntityType: node
+bundle: session
+mode: default
+content:
+  field_session_description:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_session_time:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+  links:
+    weight: 100
+hidden:
+  langcode: true
