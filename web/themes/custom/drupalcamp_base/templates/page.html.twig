@@ -110,8 +110,10 @@
         </div>
       </div>
       <div id="signup">
-        <h2>Sign up coming soon</h2>
-        <p>Contact: styret@drupalnorge.no</p>
+        <h2>{% trans %}Sign up!{% endtrans %}</h2>
+        <a href="{{ eventbrite_url }}" class="btn btn-large btn-success">
+          {% trans %}Find tickets! {% endtrans %}
+        </a>
       </div>
     {% else %}
 

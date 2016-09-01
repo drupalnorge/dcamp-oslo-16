@@ -20,4 +20,5 @@ function drupalcamp_oslo_16_preprocess_page(&$variables) {
   $variables['site_name'] = $config->get('name');
   $variables['camp_date'] = '12.-13. November 2016';
   $variables['photo_credit'] = t('Photo: Bjørnar Posse Sandboe');
+  $variables['eventbrite_url'] = 'https://www.eventbrite.com/e/drupalcamp-oslo-2016-tickets-27367588193';
 }
