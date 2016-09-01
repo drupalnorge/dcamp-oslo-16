@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Hackily change the logo to png.
+ */
+function drupalcamp_oslo_16_preprocess_block(&$variables) {
+  switch ($variables['base_plugin_id']) {
+    case 'system_branding_block':
+      $variables['site_logo'] = '';
+      if ($variables['content']['site_logo']['#access'] && $variables['content']['site_logo']['#uri']) {
+        $variables['site_logo'] = str_replace('.svg', '.png', $variables['content']['site_logo']['#uri']);
+      }
+      break;
+
+  }
+}
+
+function drupalcamp_oslo_16_preprocess_page(&$variables) {
+  $config = \Drupal::config('system.site');
+  $variables['site_name'] = $config->get('name');
+  $variables['camp_date'] = '12.-13. November 2016';
+  $variables['photo_credit'] = t('Photo: Bjørnar Posse Sandboe');
+}

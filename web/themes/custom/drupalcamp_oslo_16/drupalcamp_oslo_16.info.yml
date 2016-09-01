@@ -1,0 +1,10 @@
+name: drupalcamp_oslo_16
+type: theme
+description: Drupal Camp Base Theme
+package: Other
+core: 8.x
+libraries:
+  - drupalcamp_oslo_16/styles
+
+base theme: drupalcamp_base
+
