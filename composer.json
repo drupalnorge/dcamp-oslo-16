@@ -12,7 +12,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://packagist.drupal-composer.org"
+            "url": "https://packages.drupal.org/8"
         }
     ],
     "require": {
@@ -21,7 +21,12 @@
         "cweagans/composer-patches": "~1.0",
         "drupal/core": "~8.0",
         "drush/drush": "~8.0",
-        "drupal/console": "~1.0"
+        "drupal/console": "~1.0",
+        "drupal/admin_toolbar": "^1.16",
+        "drupal/coffee": "1.x-dev",
+        "drupal/reroute_email": "1.x-dev",
+        "php-http/guzzle6-adapter": "~1.1",
+        "sparkpost/sparkpost": "^2.0"
     },
     "require-dev": {
         "behat/mink": "~1.7",
