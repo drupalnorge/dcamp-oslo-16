@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c8885fc5e3b16e98fdcf058a9ff4e855",
-    "content-hash": "16775f04148d8185a97302115ac0e520",
+    "hash": "ec6bbbef15ea0c1204a45f559c2c5913",
+    "content-hash": "e7260cb2bb852b1724d64230e435c84e",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -5069,6 +5069,53 @@
                 "instantiate"
             ],
             "time": "2015-06-14 21:17:01"
+        },
+        {
+            "name": "drupal/sparkpost",
+            "version": "dev-2.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/sparkpost",
+                "reference": "e13cd810753d89c09e704c0011ea1e5a9e4ab7c3"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "php-http/guzzle6-adapter": "^1.1",
+                "sparkpost/sparkpost": "^2.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.x-dev",
+                    "datestamp": "1472823239"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "eiriksm",
+                    "homepage": "https://www.drupal.org/user/1014468"
+                },
+                {
+                    "name": "zaporylie",
+                    "homepage": "https://www.drupal.org/user/1532844"
+                }
+            ],
+            "description": "Integrates Drupal site with Sparkpost - transactional mail service.",
+            "homepage": "https://www.drupal.org/project/sparkpost",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/sparkpost",
+                "issues": "https://www.drupal.org/project/issues/sparkpost"
+            }
         },
         {
             "name": "fabpot/goutte",
