@@ -26,7 +26,8 @@
         "drupal/coffee": "1.x-dev",
         "drupal/reroute_email": "1.x-dev",
         "php-http/guzzle6-adapter": "~1.1",
-        "sparkpost/sparkpost": "^2.0"
+        "sparkpost/sparkpost": "^2.0",
+        "drupal/email_registration": "1.x-dev"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -72,5 +73,10 @@
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
         }
-    }
+    },
+		"patches": {
+            "drupal/reroute_email": {
+                "t() in global constant": "https://www.drupal.org/files/issues/fix_fatal_error_if-2659960-2.patch"
+            }
+		}
 }
