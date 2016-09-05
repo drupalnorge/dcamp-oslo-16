@@ -72,11 +72,11 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
+        },
+        "patches": {
+                "drupal/reroute_email": {
+                    "t() in global constant": "https://www.drupal.org/files/issues/fix_fatal_error_if-2659960-2.patch"
+                }
         }
-    },
-		"patches": {
-            "drupal/reroute_email": {
-                "t() in global constant": "https://www.drupal.org/files/issues/fix_fatal_error_if-2659960-2.patch"
-            }
-		}
+    }
 }
