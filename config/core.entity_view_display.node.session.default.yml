@@ -3,7 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.session.field_session_approved
     - field.field.node.session.field_session_description
+    - field.field.node.session.field_session_experience_level
     - field.field.node.session.field_session_time
     - node.type.session
   module:
@@ -15,12 +17,28 @@ targetEntityType: node
 bundle: session
 mode: default
 content:
+  field_session_approved:
+    weight: 103
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
   field_session_description:
     weight: 101
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
+  field_session_experience_level:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
   field_session_time:
     weight: 102
     label: above

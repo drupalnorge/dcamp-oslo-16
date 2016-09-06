@@ -4,12 +4,14 @@ module:
   big_pipe: 0
   block: 0
   breakpoint: 0
+  ckeditor: 0
   coffee: 0
   config: 0
   contextual: 0
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
+  editor: 0
   email_registration: 0
   field: 0
   field_ui: 0
@@ -23,8 +25,10 @@ module:
   node: 0
   page_cache: 0
   reroute_email: 0
+  session_control: 0
   sparkpost: 0
   system: 0
+  taxonomy: 0
   text: 0
   toolbar: 0
   update: 0
@@ -43,3 +47,4 @@ theme:
   drupalcamp_oslo_16: 0
 _core:
   default_config_hash: m2GVq11UAOVuNgj8x0t5fMOPujpvQQ_zxLoaly1BMEU
+langcode: nb

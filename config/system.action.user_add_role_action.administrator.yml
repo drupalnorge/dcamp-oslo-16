@@ -1,0 +1,14 @@
+uuid: 06249728-0608-481a-ae08-c5f16c6abd4a
+langcode: nb
+status: true
+dependencies:
+  config:
+    - user.role.administrator
+  module:
+    - user
+id: user_add_role_action.administrator
+label: 'Legg til rollen Administrator for de valgte brukerne'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: administrator
