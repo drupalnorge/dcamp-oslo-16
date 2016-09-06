@@ -1,0 +1,20 @@
+<?php
+use Drupal\Core\Access\AccessResult;
+use Drupal\Core\Field\FieldDefinitionInterface;
+
+/**
+ * Implements hook_entity_field_access().
+ */
+function session_control_entity_field_access($operation, FieldDefinitionInterface $field_definition, \Drupal\Core\Session\AccountInterface $account, \Drupal\Core\Field\FieldItemListInterface $items = NULL) {
+  $curator_fields = [
+    'field_session_time',
+    'field_session_approved',
+  ];
+  if ($items && in_array($items->getName(), $curator_fields)) {
+    $account = \Drupal::currentUser();
+    if (!$account->hasPermission('curate sessions')) {
+      return AccessResult::forbidden();
+    }
+  }
+  return AccessResult::neutral();
+}
