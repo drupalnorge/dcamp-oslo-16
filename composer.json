@@ -76,6 +76,9 @@
         "patches": {
                 "drupal/reroute_email": {
                     "t() in global constant": "https://www.drupal.org/files/issues/fix_fatal_error_if-2659960-2.patch"
+                },
+                "drupal/core": {
+                    "field_access derp": "https://www.drupal.org/files/issues/boolean_field_with-2609252-24.patch"
                 }
         }
     }
