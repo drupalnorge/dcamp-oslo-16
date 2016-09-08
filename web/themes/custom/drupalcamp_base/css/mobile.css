@@ -1,0 +1,21 @@
+@media screen and (max-width: 767px) {
+    .bg-image-wrapper h4 {
+        font-size: 46px;
+    }
+    .navbar-brand {
+        margin-top: 0;
+        margin-left: 0em;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    .navbar-nav {
+        margin: 20px 0;
+    }
+    .navbar-nav li {
+        padding: 10px 0;
+    }
+    #menu-main-nav-container {
+        padding: 10px;
+    }
+}

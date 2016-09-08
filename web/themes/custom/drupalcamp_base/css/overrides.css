@@ -48,3 +48,35 @@ body.toolbar-horizontal nav.navbar-default {
 body.toolbar-horizontal.toolbar-tray-open nav.navbar-default {
     top: 79px;
 }
+.navbar-default .navbar-toggle {
+    border: 0
+}
+nav.navbar-default .navbar-toggle:hover {
+    background: none;
+    border: none;
+}
+.navbar-toggle .navicon {
+    display: none;
+}
+.navbar-toggle.collapsed .close {
+    display: none;
+}
+.navbar-toggle.collapsed .navicon {
+    display: block;
+}
+.navbar-toggle .close {
+    display: block;
+    background: url(../images/nav-close.png) no-repeat scroll 0 0 transparent;
+    height: 28px;
+    width: 29px;
+    cursor: pointer;
+    float: right;
+    opacity: 1;
+}
+.navicon {
+    background: url(../images/navicon-icon.png) no-repeat scroll 0 -28px transparent;
+    height: 27px;
+    width: 36px;
+    cursor: pointer;
+    float: right;
+}

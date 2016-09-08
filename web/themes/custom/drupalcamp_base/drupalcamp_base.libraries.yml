@@ -5,6 +5,7 @@ base:
       css/front.css: { }
       css/overrides.css: { }
       css/blocks.css: {}
+      css/mobile.css: {}
   js:
     lib/js/bootstrap.js: {}
     js/custom.js: {}
