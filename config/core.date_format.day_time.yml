@@ -1,0 +1,8 @@
+uuid: 977dbff7-3607-4fc0-92c6-05c1ccb7f025
+langcode: nb
+status: true
+dependencies: {  }
+id: day_time
+label: 'Day - time'
+locked: false
+pattern: 'd.M H:i'

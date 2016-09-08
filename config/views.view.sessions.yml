@@ -144,10 +144,23 @@ display:
           exposed: false
           expose:
             label: ''
-      title: Sessions
+      title: 'Proposed sessions'
       header: {  }
       footer: {  }
-      empty: {  }
+      empty:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content:
+            value: 'No sessions have been proposed so far.'
+            format: filtered_html
+          plugin_id: text
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
@@ -166,7 +179,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: sessions
+      path: proposed-sessions
     cache_metadata:
       max-age: -1
       contexts:
