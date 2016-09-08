@@ -37,7 +37,7 @@ function session_control_views_pre_render(ViewExecutable $view) {
           <p><a href="{{ link }}">{% trans %}Click here to submit a session proposal.{% endtrans %}</a></p>
         </div></div>',
         '#context' => [
-          'link' => \Drupal\Core\Url::fromUserInput('/node/add/session'),
+          'link' => \Drupal\Core\Url::fromUserInput('/user/login?destination=/node/add/session'),
         ],
       ];
     }
