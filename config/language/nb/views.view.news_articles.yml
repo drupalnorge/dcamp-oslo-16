@@ -1,0 +1,6 @@
+label: Nyheter
+description: 'Brukt til nyheter, for eksempel på forsida'
+display:
+  default:
+    display_options:
+      title: Nyheter
