@@ -32,10 +32,10 @@ function session_control_views_pre_render(ViewExecutable $view) {
     if ($enabled) {
       $view->attachment_after[] = [
         '#type' => 'inline_template',
-        '#template' => '<div class="row">
+        '#template' => '<div class="row"><div class="col-lg-12">
           <h3>{% trans %}Submit session?{% endtrans %}</h3>
           <p><a href="{{ link }}">{% trans %}Click here to submit a session proposal.{% endtrans %}</a></p>
-        </div>',
+        </div></div>',
         '#context' => [
           'link' => \Drupal\Core\Url::fromUserInput('/node/add/session'),
         ],
