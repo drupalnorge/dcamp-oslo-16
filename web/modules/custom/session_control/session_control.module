@@ -1,6 +1,7 @@
 <?php
 use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Field\FieldDefinitionInterface;
+use Drupal\views\ViewExecutable;
 
 /**
  * Implements hook_entity_field_access().
@@ -17,4 +18,28 @@ function session_control_entity_field_access($operation, FieldDefinitionInterfac
     }
   }
   return AccessResult::neutral();
+}
+
+/**
+ * Implements hook_views_pre_render().
+ */
+function session_control_views_pre_render(ViewExecutable $view) {
+  if ($view->id() == 'sessions') {
+    // Check if we are after the deadline for submitting sessions.
+    // @todo(eirik): Actually do that.
+    $config = \Drupal::config('session_control.settings');
+    $enabled = $config->get('sessions_enabled');
+    if ($enabled) {
+      $view->attachment_after[] = [
+        '#type' => 'inline_template',
+        '#template' => '<div class="row">
+          <h3>{% trans %}Submit session?{% endtrans %}</h3>
+          <p><a href="{{ link }}">{% trans %}Click here to submit a session proposal.{% endtrans %}</a></p>
+        </div>',
+        '#context' => [
+          'link' => \Drupal\Core\Url::fromUserInput('/node/add/session'),
+        ],
+      ];
+    }
+  }
 }
