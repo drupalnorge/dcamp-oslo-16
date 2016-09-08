@@ -46,3 +46,7 @@
     position: absolute;
     color: #fff;
 }
+.front .jumbotron ul {
+    list-style-type: none;
+    padding:0;
+}
