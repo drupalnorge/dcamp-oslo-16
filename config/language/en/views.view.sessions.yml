@@ -1,0 +1,9 @@
+display:
+  default:
+    display_options:
+      empty:
+        area:
+          content:
+            value: "<p>No sessions have been proposed so far.</p>\r\n"
+            format: filtered_html
+      title: 'Proposed sessions'

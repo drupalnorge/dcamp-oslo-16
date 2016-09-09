@@ -144,7 +144,7 @@ display:
           exposed: false
           expose:
             label: ''
-      title: 'Proposed sessions'
+      title: 'Foreslåtte sessions'
       header: {  }
       footer: {  }
       empty:
@@ -158,7 +158,7 @@ display:
           empty: true
           tokenize: false
           content:
-            value: 'No sessions have been proposed so far.'
+            value: 'Ingen sessions har blitt foreslått så langt.'
             format: filtered_html
           plugin_id: text
       relationships: {  }
