@@ -12,7 +12,7 @@ dependencies:
 id: views_block__featured_speakers_block_1
 theme: drupalcamp_oslo_16
 region: content
-weight: -4
+weight: -6
 provider: null
 plugin: 'views_block:featured_speakers-block_1'
 settings:

@@ -9,7 +9,7 @@ _core:
 id: drupalcamp_oslo_16_page_title
 theme: drupalcamp_oslo_16
 region: content
-weight: -3
+weight: -5
 provider: null
 plugin: page_title_block
 settings:

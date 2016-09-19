@@ -4,6 +4,7 @@ module:
   big_pipe: 0
   block: 0
   breakpoint: 0
+  camp_utils: 0
   ckeditor: 0
   coffee: 0
   config: 0
@@ -30,6 +31,7 @@ module:
   sparkpost: 0
   system: 0
   taxonomy: 0
+  telephone: 0
   text: 0
   toolbar: 0
   update: 0
