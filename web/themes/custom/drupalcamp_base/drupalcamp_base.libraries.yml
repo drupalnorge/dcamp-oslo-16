@@ -6,6 +6,7 @@ base:
       css/overrides.css: { }
       css/blocks.css: {}
       css/mobile.css: {}
+      lib/css/font-awesome.min.css: {}
   js:
     lib/js/bootstrap.js: {}
     js/custom.js: {}
