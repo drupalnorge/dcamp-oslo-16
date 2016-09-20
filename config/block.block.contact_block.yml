@@ -17,7 +17,7 @@ settings:
   label: contact_block
   provider: camp_utils
   label_display: '0'
-  google_url: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2000.1523789188125!2d10.7367122!3d59.9130184!3m2!1i1024!2i768!4f13.1!3m3!1m'
+  google_url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.144794781909!2d10.734169715681157!3d59.913144271117545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e7d879df3a9%3A0x2363c32e960440a0!2sMesh!5e0!3m2!1sen!2sus!4v1474346761703'
   email: styret@drupalnorge.no
   phone: '+47 98 04 24 06'
   twitter: 'https://twitter.com/drupal_norge'
