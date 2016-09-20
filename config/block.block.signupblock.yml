@@ -1,0 +1,21 @@
+uuid: 50b69636-ac45-45a5-a309-2be2a26a2c2f
+langcode: nb
+status: true
+dependencies:
+  module:
+    - camp_utils
+  theme:
+    - drupalcamp_oslo_16
+id: signupblock
+theme: drupalcamp_oslo_16
+region: footer
+weight: -6
+provider: null
+plugin: signup_block
+settings:
+  id: signup_block
+  label: 'Sign up'
+  provider: camp_utils
+  label_display: '0'
+  eventbrite_url: 'https://www.eventbrite.com/e/drupalcamp-oslo-2016-tickets-27367588193'
+visibility: {  }
