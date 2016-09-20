@@ -7,8 +7,10 @@ base:
       css/blocks.css: {}
       css/mobile.css: {}
       lib/css/font-awesome.min.css: {}
+      lib/css/jquery.fancybox.min.css: {}
   js:
     lib/js/bootstrap.js: {}
+    lib/js/jquery.fancybox.min.js: {}
     js/custom.js: {}
   dependencies:
     - core/jquery
