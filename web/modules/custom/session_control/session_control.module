@@ -30,6 +30,31 @@ function session_control_views_pre_render(ViewExecutable $view) {
     $config = \Drupal::config('session_control.settings');
     $enabled = $config->get('sessions_enabled');
     if ($enabled) {
+      // Check if we know when the CFP closes.
+      if ($timestamp = $config->get('session_deadline')) {
+        $view->attachment_before[] = [
+          '#type' => 'inline_template',
+          '#template' => '
+          <div class="row session-rules">
+            <div class="col md-12">
+              <div class="alert alert-warning" role="alert">
+                {{ session_text }}
+              </div>
+            </div>
+          </div>
+        ',
+          '#cache' => [
+            'max-age' => 0,
+          ],
+          '#context' => [
+            'session_text' => (string) t('Deadline for submitting your session is @date', [
+              // @todo(eiriksm): Inject dateformatter service and use that.
+              '@date' => format_date($timestamp, 'custom', 'r'),
+            ]),
+          ],
+        ];
+
+      }
       $view->attachment_after[] = [
         '#type' => 'inline_template',
         '#template' => '<div class="row"><div class="col-lg-12">
