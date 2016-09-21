@@ -1,2 +1,10 @@
-label: Administrasjon
-description: 'Lenker for administrativ oppgaver'
+uuid: 05bcda8e-f910-46d8-9062-e2be2cc9c195
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sapEi2YDGoI9yQIT_WgIV2vUdQ6DScH0V3fAyTadAL0
+id: admin
+label: Administration
+description: 'Administrative task links'
+locked: true

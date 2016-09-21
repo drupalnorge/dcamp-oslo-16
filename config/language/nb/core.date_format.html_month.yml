@@ -1,1 +1,10 @@
-label: 'HTML måned'
+uuid: f401da0e-dd20-4531-a9c4-c9864d9cb30d
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Z7KuCUwM_WdTNvLcoltuX3_8d-s-8FZkTN6KgNwF0eM
+id: html_month
+label: 'HTML Month'
+locked: true
+pattern: Y-m

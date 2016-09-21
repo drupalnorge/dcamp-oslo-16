@@ -1,1 +1,9 @@
-label: 'Norsk (bokmål)'
+uuid: 0dc584c5-db11-4964-8ae7-06616e9ca0e1
+langcode: nb
+status: true
+dependencies: {  }
+id: nb
+label: 'Norwegian Bokmål'
+direction: ltr
+weight: 1
+locked: false
