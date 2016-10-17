@@ -76,7 +76,6 @@
 
   {{ page.highlighted }}
 
-  {{ page.help }}
 
   <main role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
@@ -110,6 +109,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
+              {{ page.help }}
               {{ page.content }}
             </div>
           </div>
@@ -121,6 +121,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
+            {{ page.help }}
             {{ page.content }}
           </div>
         </div>
