@@ -3,8 +3,10 @@ langcode: nb
 status: true
 dependencies:
   config:
+    - field.field.node.sponsor.field_sponsor_level
     - field.field.node.sponsor.field_sponsor_logo
     - field.field.node.sponsor.field_sponsor_url
+    - image.style.large
     - node.type.sponsor
   module:
     - image
@@ -16,25 +18,28 @@ bundle: sponsor
 mode: default
 content:
   field_sponsor_logo:
-    weight: 101
-    label: above
+    weight: 1
+    label: hidden
     settings:
-      image_style: ''
+      image_style: large
       image_link: ''
     third_party_settings: {  }
     type: image
   field_sponsor_url:
-    weight: 102
-    label: above
+    type: link
+    weight: 2
+    label: hidden
     settings:
-      trim_length: 80
+      trim_length: null
       url_only: false
       url_plain: false
-      rel: ''
-      target: ''
+      rel: '0'
+      target: '0'
     third_party_settings: {  }
-    type: link
   links:
-    weight: 100
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
 hidden:
+  field_sponsor_level: true
   langcode: true

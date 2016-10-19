@@ -3,6 +3,7 @@ langcode: nb
 status: true
 dependencies:
   config:
+    - field.field.node.sponsor.field_sponsor_level
     - field.field.node.sponsor.field_sponsor_logo
     - field.field.node.sponsor.field_sponsor_url
     - image.style.thumbnail
@@ -20,6 +21,12 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
+  field_sponsor_level:
+    weight: 28
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
   field_sponsor_logo:
     weight: 26
     settings:
