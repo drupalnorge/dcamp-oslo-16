@@ -28,6 +28,11 @@ content:
     weight: 2
     settings: {  }
     third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
   promote:
     type: boolean_checkbox
     settings:
@@ -47,6 +52,8 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  translation:
+    weight: 10
   uid:
     type: entity_reference_autocomplete
     weight: 5

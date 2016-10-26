@@ -22,4 +22,8 @@ content:
     third_party_settings: {  }
     type: image
 hidden:
+  field_user_about_me: true
+  field_user_drupal_org_profile: true
+  field_user_twitter: true
+  langcode: true
   member_for: true

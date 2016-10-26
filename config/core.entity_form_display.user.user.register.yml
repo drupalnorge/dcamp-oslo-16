@@ -25,4 +25,5 @@ hidden:
   field_user_drupal_org_profile: true
   field_user_picture: true
   field_user_twitter: true
+  langcode: true
   language: true

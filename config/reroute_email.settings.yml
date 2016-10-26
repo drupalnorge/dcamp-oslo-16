@@ -1,6 +1,6 @@
-reroute_email_enable: 0
+reroute_email_enable: false
 reroute_email_address: ''
-reroute_email_enable_message: 0
+reroute_email_enable_message: false
 actions: null
 form_build_id: form-Shuqw4okuSmrvF982rSyMmGOHdC1-hNJCr46jbH_kFQ
 form_token: bL5N--vUm8JBnGa4iZKPGjaMc7ymrsbxrWsieFO9Y8Y

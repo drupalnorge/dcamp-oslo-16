@@ -29,7 +29,6 @@ display:
           perm: 'access content'
       cache:
         type: tag
-        options: {  }
       query:
         type: views_query
         options:
@@ -37,7 +36,6 @@ display:
           distinct: false
           replica: false
           query_comment: ''
-          query_tags: {  }
       exposed_form:
         type: basic
         options:
@@ -98,7 +96,6 @@ display:
           click_sort_column: value
           type: string
           group_column: value
-          group_columns: {  }
           group_rows: true
           delta_limit: 0
           delta_offset: 0
@@ -145,12 +142,6 @@ display:
             label: ''
           granularity: second
       title: News
-      header: {  }
-      footer: {  }
-      empty: {  }
-      relationships: {  }
-      arguments: {  }
-      display_extenders: {  }
     cache_metadata:
       max-age: -1
       contexts:
@@ -158,14 +149,12 @@ display:
         - 'languages:language_interface'
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
   page_1:
     display_plugin: page
     id: page_1
     display_title: Page
     position: 1
     display_options:
-      display_extenders: {  }
       path: news
       menu:
         enabled: true
@@ -177,4 +166,3 @@ display:
         - 'languages:language_interface'
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
