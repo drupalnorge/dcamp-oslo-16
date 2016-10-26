@@ -12,6 +12,9 @@ function session_control_entity_field_access($operation, FieldDefinitionInterfac
     'field_session_approved',
   ];
   if ($items && in_array($items->getName(), $curator_fields)) {
+    if ($operation != 'edit' && $items->getName() == 'field_session_time') {
+      return AccessResult::neutral();
+    }
     $account = \Drupal::currentUser();
     if (!$account->hasPermission('curate sessions')) {
       return AccessResult::forbidden();
