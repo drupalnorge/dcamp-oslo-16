@@ -1,7 +1,6 @@
 uuid: ec517201-58df-493c-abfd-0f96078c313e
 langcode: nb
 status: true
-dependencies: {  }
 _core:
   default_config_hash: jxfClwZIRXIdcvMrE--WkcZxDGUVoOIE3Sm2NRZlFuE
 id: html_datetime

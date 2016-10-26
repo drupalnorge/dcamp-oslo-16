@@ -10,4 +10,3 @@ id: node_unpublish_action
 label: 'Unpublish content'
 type: node
 plugin: node_unpublish_action
-configuration: {  }

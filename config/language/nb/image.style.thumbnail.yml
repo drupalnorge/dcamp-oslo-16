@@ -1,7 +1,6 @@
 uuid: 4c328875-3422-49cd-afdf-9ee18d1d047f
 langcode: nb
 status: true
-dependencies: {  }
 _core:
   default_config_hash: cCiWdBHgLwj5omG35lsKc4LkW4MBdmcctkVop4ol5x0
 name: thumbnail

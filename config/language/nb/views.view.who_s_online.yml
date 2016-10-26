@@ -27,7 +27,6 @@ display:
           perm: 'access user profiles'
       cache:
         type: tag
-        options: {  }
       query:
         type: views_query
         options:
@@ -35,7 +34,6 @@ display:
           distinct: false
           replica: false
           query_comment: ''
-          query_tags: {  }
       exposed_form:
         type: basic
         options:
@@ -54,7 +52,6 @@ display:
       style:
         type: html_list
         options:
-          grouping: {  }
           row_class: ''
           default_row_class: true
           type: ul
@@ -148,8 +145,6 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           plugin_id: date
           entity_type: user
           entity_field: access
@@ -181,7 +176,6 @@ display:
           empty: false
           content: 'There are currently @total users online.'
           plugin_id: result
-      footer: {  }
       empty:
         area_text_custom:
           id: area_text_custom
@@ -194,16 +188,12 @@ display:
           tokenize: false
           content: 'There are currently 0 users online.'
           plugin_id: text_custom
-      relationships: {  }
-      arguments: {  }
-      display_extenders: {  }
     cache_metadata:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
         - user.permissions
       max-age: -1
-      tags: {  }
   who_s_online_block:
     display_plugin: block
     id: who_s_online_block
@@ -212,11 +202,9 @@ display:
     display_options:
       block_description: 'Who''s online'
       display_description: 'A list of users that are currently logged in.'
-      display_extenders: {  }
     cache_metadata:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
         - user.permissions
       max-age: -1
-      tags: {  }

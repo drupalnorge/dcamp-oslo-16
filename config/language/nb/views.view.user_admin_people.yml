@@ -34,7 +34,6 @@ display:
           distinct: false
           replica: false
           query_comment: ''
-          query_tags: {  }
       exposed_form:
         type: basic
         options:
@@ -69,7 +68,6 @@ display:
       style:
         type: table
         options:
-          grouping: {  }
           row_class: ''
           default_row_class: true
           override: true
@@ -564,9 +562,7 @@ display:
           hide_alter_empty: true
           click_sort_column: value
           type: basic_string
-          settings: {  }
           group_column: value
-          group_columns: {  }
           group_rows: true
           delta_limit: 0
           delta_offset: 0
@@ -614,8 +610,6 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           fields:
             name: name
             mail: mail
@@ -628,7 +622,6 @@ display:
           group_type: group
           admin_label: ''
           operator: or
-          value: {  }
           group: 1
           exposed: true
           expose:
@@ -656,8 +649,6 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           reduce_duplicates: false
           plugin_id: user_roles
         permission:
@@ -668,7 +659,6 @@ display:
           group_type: group
           admin_label: ''
           operator: or
-          value: {  }
           group: 1
           exposed: true
           expose:
@@ -696,8 +686,6 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           reduce_duplicates: false
           plugin_id: user_permissions
         status:
@@ -735,7 +723,6 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
             group_items:
               1:
                 title: Active
@@ -781,8 +768,6 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           entity_type: user
           entity_field: default_langcode
           plugin_id: boolean
@@ -822,8 +807,6 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           plugin_id: numeric
           entity_type: user
       sorts:
@@ -870,7 +853,6 @@ display:
         operator: AND
         groups:
           1: AND
-      display_extenders: {  }
     cache_metadata:
       contexts:
         - 'languages:language_content'
@@ -879,7 +861,6 @@ display:
         - url.query_args
         - user.permissions
       max-age: 0
-      tags: {  }
   page_1:
     display_plugin: page
     id: page_1
@@ -905,7 +886,6 @@ display:
         weight: 0
       defaults:
         show_admin_links: false
-      display_extenders: {  }
     cache_metadata:
       contexts:
         - 'languages:language_content'
@@ -914,4 +894,3 @@ display:
         - url.query_args
         - user.permissions
       max-age: 0
-      tags: {  }

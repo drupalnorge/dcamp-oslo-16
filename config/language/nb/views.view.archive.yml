@@ -31,7 +31,6 @@ display:
           disable_sql_rewrite: false
           distinct: false
           replica: false
-          query_tags: {  }
       title: 'Monthly archive'
       access:
         type: perm
@@ -39,7 +38,6 @@ display:
           perm: 'access content'
       cache:
         type: tag
-        options: {  }
       exposed_form:
         type: basic
         options:
@@ -151,15 +149,12 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           plugin_id: language
           entity_type: node
           entity_field: langcode
       style:
         type: default
         options:
-          grouping: {  }
           row_class: ''
           default_row_class: true
           uses_fields: false
@@ -167,12 +162,6 @@ display:
         type: 'entity:node'
         options:
           view_mode: teaser
-      header: {  }
-      footer: {  }
-      empty: {  }
-      relationships: {  }
-      fields: {  }
-      display_extenders: {  }
     cache_metadata:
       contexts:
         - 'languages:language_interface'
@@ -181,7 +170,6 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       max-age: -1
-      tags: {  }
   block_1:
     id: block_1
     display_title: Block
@@ -190,7 +178,6 @@ display:
     display_options:
       query:
         type: views_query
-        options: {  }
       defaults:
         arguments: false
       arguments:
@@ -211,7 +198,6 @@ display:
           specify_validation: true
           plugin_id: date_year_month
           entity_type: node
-      display_extenders: {  }
     cache_metadata:
       contexts:
         - 'languages:language_interface'
@@ -220,7 +206,6 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       max-age: -1
-      tags: {  }
   page_1:
     id: page_1
     display_title: Page
@@ -229,9 +214,7 @@ display:
     display_options:
       query:
         type: views_query
-        options: {  }
       path: archive
-      display_extenders: {  }
       menu:
         enabled: true
         expanded: false
@@ -243,4 +226,3 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       max-age: -1
-      tags: {  }

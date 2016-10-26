@@ -1,7 +1,6 @@
 uuid: 7a091e18-97ae-4837-99f7-c13c76a1b101
 langcode: nb
 status: true
-dependencies: {  }
 _core:
   default_config_hash: M_Bh81osDyUQ4wV0GgU_NdBNqkzM87sLxjaCdFj9mnw
 id: account

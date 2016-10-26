@@ -28,7 +28,6 @@ display:
           perm: 'access content'
       cache:
         type: tag
-        options: {  }
       query:
         type: views_query
         options:
@@ -36,7 +35,6 @@ display:
           distinct: false
           replica: false
           query_comment: ''
-          query_tags: {  }
       exposed_form:
         type: basic
         options:
@@ -55,7 +53,6 @@ display:
       style:
         type: html_list
         options:
-          grouping: {  }
           row_class: ''
           default_row_class: true
           type: ul
@@ -150,9 +147,7 @@ display:
           hide_alter_empty: true
           click_sort_column: value
           type: timestamp_ago
-          settings: {  }
           group_column: value
-          group_columns: {  }
           group_rows: true
           delta_limit: 0
           delta_offset: 0
@@ -198,8 +193,6 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           entity_type: node
           plugin_id: node_status
         langcode:
@@ -237,8 +230,6 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           entity_type: node
           entity_field: langcode
           plugin_id: language
@@ -259,8 +250,6 @@ display:
           entity_field: changed
           plugin_id: date
       title: 'Recent content'
-      header: {  }
-      footer: {  }
       empty:
         area_text_custom:
           id: area_text_custom
@@ -285,8 +274,6 @@ display:
           entity_type: node
           entity_field: uid
           plugin_id: standard
-      arguments: {  }
-      display_extenders: {  }
       use_more: false
       use_more_always: false
       use_more_text: More
@@ -300,14 +287,11 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       max-age: -1
-      tags: {  }
   block_1:
     display_plugin: block
     id: block_1
     display_title: Block
     position: 1
-    display_options:
-      display_extenders: {  }
     cache_metadata:
       contexts:
         - 'languages:language_content'
@@ -316,4 +300,3 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       max-age: -1
-      tags: {  }

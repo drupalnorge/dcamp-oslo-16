@@ -21,5 +21,8 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_user_about_me: true
+  field_user_drupal_org_profile: true
   field_user_picture: true
+  field_user_twitter: true
   language: true

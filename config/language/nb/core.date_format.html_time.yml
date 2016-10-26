@@ -1,7 +1,6 @@
 uuid: c53eba63-aec7-4896-9327-c4c2497572a5
 langcode: nb
 status: true
-dependencies: {  }
 _core:
   default_config_hash: M7yqicYkU36hRy5p9drAaGBBihhUD1OyujFrAaQ93ZE
 id: html_time

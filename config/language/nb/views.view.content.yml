@@ -48,7 +48,6 @@ display:
       style:
         type: table
         options:
-          grouping: {  }
           row_class: ''
           default_row_class: true
           override: true
@@ -230,7 +229,6 @@ display:
           settings:
             link: false
           group_column: target_id
-          group_columns: {  }
           group_rows: true
           delta_limit: 0
           delta_offset: 0
@@ -398,7 +396,6 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
             group_items:
               1:
                 title: Published
@@ -419,7 +416,6 @@ display:
           group_type: group
           admin_label: ''
           operator: in
-          value: {  }
           group: 1
           exposed: true
           expose:
@@ -447,8 +443,6 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           plugin_id: bundle
           entity_type: node
           entity_field: type
@@ -487,8 +481,6 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           plugin_id: string
           entity_type: node
           entity_field: title
@@ -500,7 +492,6 @@ display:
           group_type: group
           admin_label: ''
           operator: in
-          value: {  }
           group: 1
           exposed: true
           expose:
@@ -528,12 +519,9 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           plugin_id: language
           entity_type: node
           entity_field: langcode
-      sorts: {  }
       title: Content
       empty:
         area_text_custom:
@@ -543,7 +531,6 @@ display:
           empty: true
           content: 'No content available.'
           plugin_id: text_custom
-      arguments: {  }
       relationships:
         uid:
           id: uid
@@ -557,7 +544,6 @@ display:
         operator: AND
         groups:
           1: AND
-      display_extenders: {  }
     display_plugin: default
     display_title: Master
     id: default
@@ -572,7 +558,6 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       max-age: 0
-      tags: {  }
   page_1:
     display_options:
       path: admin/content/node
@@ -591,7 +576,6 @@ display:
         description: 'Find and manage content'
         menu_name: admin
         weight: -10
-      display_extenders: {  }
     display_plugin: page
     display_title: Page
     id: page_1
@@ -606,4 +590,3 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       max-age: 0
-      tags: {  }

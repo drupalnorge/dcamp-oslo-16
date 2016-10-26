@@ -28,7 +28,6 @@ display:
           perm: 'access files overview'
       cache:
         type: tag
-        options: {  }
       query:
         type: views_query
         options:
@@ -36,7 +35,6 @@ display:
           distinct: false
           replica: false
           query_comment: ''
-          query_tags: {  }
       exposed_form:
         type: basic
         options:
@@ -68,7 +66,6 @@ display:
       style:
         type: table
         options:
-          grouping: {  }
           row_class: ''
           default_row_class: true
           override: true
@@ -231,7 +228,6 @@ display:
           click_sort_column: value
           type: file_link
           group_column: value
-          group_columns: {  }
           group_rows: true
           delta_limit: 0
           delta_offset: 0
@@ -608,8 +604,6 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           plugin_id: string
           entity_type: file
           entity_field: filename
@@ -648,8 +642,6 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           plugin_id: string
           entity_type: file
           entity_field: filemime
@@ -661,7 +653,6 @@ display:
           group_type: group
           admin_label: ''
           operator: in
-          value: {  }
           group: 1
           exposed: true
           expose:
@@ -689,15 +680,10 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           plugin_id: file_status
           entity_type: file
           entity_field: status
-      sorts: {  }
       title: Files
-      header: {  }
-      footer: {  }
       empty:
         area_text_custom:
           id: area_text_custom
@@ -715,10 +701,8 @@ display:
           group_type: group
           admin_label: 'File usage'
           required: true
-      arguments: {  }
       group_by: true
       show_admin_links: true
-      display_extenders: {  }
     cache_metadata:
       contexts:
         - 'languages:language_content'
@@ -727,7 +711,6 @@ display:
         - url.query_args
         - user.permissions
       max-age: 0
-      tags: {  }
   page_1:
     display_plugin: page
     id: page_1
@@ -757,7 +740,6 @@ display:
           group_type: group
           admin_label: 'File usage'
           required: false
-      display_extenders: {  }
     cache_metadata:
       contexts:
         - 'languages:language_content'
@@ -766,7 +748,6 @@ display:
         - url.query_args
         - user.permissions
       max-age: 0
-      tags: {  }
   page_2:
     display_plugin: page
     id: page_2
@@ -775,7 +756,6 @@ display:
     display_options:
       display_description: ''
       path: admin/content/files/usage/%
-      empty: {  }
       defaults:
         empty: false
         pager: false
@@ -806,10 +786,8 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-      filters: {  }
       filter_groups:
         operator: AND
-        groups: {  }
       fields:
         entity_label:
           id: entity_label
@@ -1050,7 +1028,6 @@ display:
           validate:
             type: none
             fail: 'not found'
-          validate_options: {  }
           break_phrase: false
           not: false
           plugin_id: file_fid
@@ -1059,7 +1036,6 @@ display:
       style:
         type: table
         options:
-          grouping: {  }
           row_class: ''
           default_row_class: true
           override: true
@@ -1105,7 +1081,6 @@ display:
           empty_table: true
       row:
         type: fields
-        options: {  }
       relationships:
         fid:
           id: fid
@@ -1115,7 +1090,6 @@ display:
           group_type: group
           admin_label: 'File usage'
           required: true
-      display_extenders: {  }
       menu:
         enabled: true
         expanded: false
@@ -1126,4 +1100,3 @@ display:
         - url.query_args
         - user.permissions
       max-age: 0
-      tags: {  }

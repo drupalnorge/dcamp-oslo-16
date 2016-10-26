@@ -27,7 +27,6 @@ display:
           perm: 'access content'
       cache:
         type: tag
-        options: {  }
       query:
         type: views_query
         options:
@@ -35,7 +34,6 @@ display:
           distinct: false
           replica: false
           query_comment: ''
-          query_tags: {  }
       exposed_form:
         type: basic
         options:
@@ -139,8 +137,6 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           plugin_id: date
           entity_type: user
           entity_field: access
@@ -161,19 +157,12 @@ display:
           entity_type: user
           entity_field: created
       title: 'Who''s new'
-      header: {  }
-      footer: {  }
-      empty: {  }
-      relationships: {  }
-      arguments: {  }
-      display_extenders: {  }
     cache_metadata:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
         - user.permissions
       max-age: -1
-      tags: {  }
   block_1:
     display_plugin: block
     id: block_1
@@ -183,11 +172,9 @@ display:
       display_description: 'A list of new users'
       block_description: 'Who''s new'
       block_category: User
-      display_extenders: {  }
     cache_metadata:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
         - user.permissions
       max-age: -1
-      tags: {  }

@@ -26,6 +26,7 @@ module:
   menu_ui: 0
   node: 0
   page_cache: 0
+  path: 0
   reroute_email: 0
   session_control: 0
   sparkpost: 0

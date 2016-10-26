@@ -17,6 +17,7 @@ settings:
           items:
             - Bold
             - Italic
+            - Format
         -
           name: Lenker
           items:
@@ -35,6 +36,7 @@ settings:
           name: Verktøy
           items:
             - Source
+            - RemoveFormat
   plugins:
     language:
       language_list: un

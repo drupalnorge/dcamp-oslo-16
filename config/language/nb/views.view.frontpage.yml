@@ -27,7 +27,6 @@ display:
           perm: 'access content'
       cache:
         type: tag
-        options: {  }
       empty:
         area_text_custom:
           admin_label: ''
@@ -93,9 +92,7 @@ display:
           group: 1
           group_info:
             default_group: All
-            default_group_multiple: {  }
             description: ''
-            group_items: {  }
             identifier: ''
             label: ''
             multiple: false
@@ -158,8 +155,6 @@ display:
             multiple: false
             remember: false
             default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           plugin_id: language
           entity_type: node
           entity_field: langcode
@@ -191,7 +186,6 @@ display:
           distinct: false
           replica: false
           query_comment: ''
-          query_tags: {  }
       row:
         type: 'entity:node'
         options:
@@ -229,17 +223,10 @@ display:
       style:
         type: default
         options:
-          grouping: {  }
           row_class: ''
           default_row_class: true
           uses_fields: false
       title: ''
-      header: {  }
-      footer: {  }
-      relationships: {  }
-      fields: {  }
-      arguments: {  }
-      display_extenders: {  }
     display_plugin: default
     display_title: Master
     id: default
@@ -251,7 +238,6 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       max-age: -1
-      tags: {  }
   feed_1:
     display_plugin: feed
     id: feed_1
@@ -272,25 +258,21 @@ display:
         type: rss
         options:
           description: ''
-          grouping: {  }
           uses_fields: false
       row:
         type: node_rss
         options:
           relationship: none
           view_mode: rss
-      display_extenders: {  }
     cache_metadata:
       contexts:
         - 'languages:language_interface'
         - 'user.node_grants:view'
         - user.permissions
       max-age: -1
-      tags: {  }
   page_1:
     display_options:
       path: node
-      display_extenders: {  }
       menu:
         enabled: true
         expanded: false
@@ -305,4 +287,3 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       max-age: -1
-      tags: {  }
