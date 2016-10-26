@@ -59,7 +59,7 @@ function drupalcamp_base_theme_suggestions_views_view_unformatted_alter(array &$
   /** @var \Drupal\views\ViewExecutable $view */
   $view = $variables['view'];
   if ($view) {
-    $suggestions[] = 'views_view_unformatted__' . $view->id();
+    $suggestions[] = 'views_view_unformatted__' . $view->id() . '__' . $view->display_handler->display['id'];
   }
 }
 
