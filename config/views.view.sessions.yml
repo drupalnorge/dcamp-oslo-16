@@ -3,7 +3,7 @@ langcode: nb
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.full
+    - core.entity_view_mode.node.list
     - field.storage.node.field_session_time
     - node.type.session
   module:
@@ -70,7 +70,7 @@ display:
         type: 'entity:node'
         options:
           relationship: none
-          view_mode: full
+          view_mode: list
       fields:
         title:
           id: title
