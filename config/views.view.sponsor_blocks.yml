@@ -193,7 +193,7 @@ display:
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
-      title: 'Sponsor block, level 1'
+      title: Hovedsponsor
     cache_metadata:
       max-age: -1
       contexts:
@@ -226,7 +226,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      title: 'Sponsor block, level 2'
+      title: Sponsorer
       defaults:
         title: false
         filters: false
