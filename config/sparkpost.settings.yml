@@ -4,3 +4,7 @@ sender_name: 'Drupal Norge'
 _core:
   default_config_hash: lwuTjJuABNwT-MOHY53_w6H37MVtiGb_6sZbhDow4lY
 langcode: nb
+debug: 1
+format: filtered_html
+async: 0
+skip_cron: 0
