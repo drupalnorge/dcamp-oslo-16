@@ -24,10 +24,10 @@
         "drupal/console": "~1.0",
         "drupal/admin_toolbar": "^1.16",
         "drupal/coffee": "1.x-dev",
-        "drupal/reroute_email": "1.x-dev",
+        "drupal/reroute_email": "^1.0@beta",
         "php-http/guzzle6-adapter": "~1.1",
         "sparkpost/sparkpost": "^2.0",
-        "drupal/email_registration": "1.x-dev"
+        "drupal/email_registration": "^1.0@RC"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -62,7 +62,14 @@
         ],
         "post-update-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ]
+        ],
+        "build": [
+          "git pull",
+          "composer install",
+          "./vendor/bin/drush --root=$(pwd)/drupal updb -y",
+          "./vendor/bin/drush --root=$(pwd)/drupal cim -y",
+          "./vendor/bin/drush --root=$(pwd)/drupal cr"
+      ]
     },
     "extra": {
         "installer-paths": {
@@ -74,9 +81,6 @@
             "drush/contrib/{$name}": ["type:drupal-drush"]
         },
         "patches": {
-                "drupal/reroute_email": {
-                    "t() in global constant": "https://www.drupal.org/files/issues/fix_fatal_error_if-2659960-2.patch"
-                },
                 "drupal/core": {
                     "field_access derp": "https://www.drupal.org/files/issues/boolean_field_with-2609252-24.patch"
                 }
