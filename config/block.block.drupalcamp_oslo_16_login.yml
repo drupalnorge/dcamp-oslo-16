@@ -10,7 +10,7 @@ _core:
   default_config_hash: 4QlSnWBcxxKMIFRM8sbu_MjSkcp3NjGgnVrc-lynQHI
 id: drupalcamp_oslo_16_login
 theme: drupalcamp_oslo_16
-region: '-1'
+region: sidebar_first
 weight: -3
 provider: null
 plugin: user_login_block

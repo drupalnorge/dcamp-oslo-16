@@ -24,6 +24,7 @@ content:
       trim_length: 400
     third_party_settings: {  }
     type: text_trimmed
+    region: content
   field_session_experience_level:
     weight: 2
     label: above
@@ -31,10 +32,12 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+    region: content
   links:
     weight: 0
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden:
   field_session_approved: true
   field_session_time: true

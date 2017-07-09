@@ -23,6 +23,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
   field_user_drupal_org_profile:
     weight: 8
     label: above
@@ -34,6 +35,7 @@ content:
       target: ''
     third_party_settings: {  }
     type: link
+    region: content
   field_user_picture:
     weight: 6
     label: hidden
@@ -42,6 +44,7 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
   field_user_twitter:
     weight: 9
     label: above
@@ -53,9 +56,11 @@ content:
       target: ''
     third_party_settings: {  }
     type: link
+    region: content
   member_for:
     weight: 5
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden:
   langcode: true

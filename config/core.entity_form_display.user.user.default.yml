@@ -22,6 +22,7 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_user_about_me:
     weight: 3
     settings:
@@ -29,6 +30,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
+    region: content
   field_user_drupal_org_profile:
     weight: 4
     settings:
@@ -36,6 +38,7 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
   field_user_picture:
     weight: 2
     settings:
@@ -43,6 +46,7 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
   field_user_twitter:
     weight: 5
     settings:
@@ -50,10 +54,12 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
   timezone:
     weight: 1
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden:
   langcode: true
   language: true
