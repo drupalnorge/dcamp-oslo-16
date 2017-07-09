@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6da951ec22a3f73bc18db1ca0bae7cd",
+    "content-hash": "32e2cb71475450f60d010510cc80b658",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1130,17 +1130,17 @@
         },
         {
             "name": "drupal/admin_toolbar",
-            "version": "1.17.0",
+            "version": "1.19.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/admin_toolbar",
-                "reference": "8.x-1.17"
+                "reference": "8.x-1.19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.17.zip",
-                "reference": "8.x-1.17",
-                "shasum": "030dbb0cf65ae74e8a9c54d0fb2257112c2b16a5"
+                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.19.zip",
+                "reference": null,
+                "shasum": "87de41eab3c5cd49d4e1b5b764cb3b9d5ad683a0"
             },
             "require": {
                 "drupal/core": "*"
@@ -1151,8 +1151,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.17",
-                    "datestamp": "1472585039"
+                    "version": "8.x-1.19",
+                    "datestamp": "1491487683"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
