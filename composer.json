@@ -26,7 +26,6 @@
         "drupal/coffee": "1.x-dev",
         "drupal/reroute_email": "^1.0@beta",
         "php-http/guzzle6-adapter": "~1.1",
-        "sparkpost/sparkpost": "^2.0",
         "drupal/email_registration": "^1.0@RC"
     },
     "require-dev": {
@@ -35,8 +34,6 @@
         "jcalderonzumba/gastonjs": "~1.0.2",
         "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
         "mikey179/vfsStream": "~1.2",
-        "phpunit/phpunit": "~4.8",
-        "symfony/css-selector": "~2.8",
         "drupal/sparkpost": "*"
     },
     "conflict": {
