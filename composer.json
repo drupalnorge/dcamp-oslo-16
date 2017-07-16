@@ -21,7 +21,7 @@
         "cweagans/composer-patches": "~1.0",
         "drupal/core": "~8.0",
         "drush/drush": "~8.0",
-        "drupal/console": "~1.0",
+        "drupal/console": "~1.0.0-rc24",
         "drupal/admin_toolbar": "^1.19.0",
         "drupal/coffee": "^1.0@beta",
         "drupal/reroute_email": "^1.0@beta",
