@@ -30,9 +30,6 @@
         "drupal/sparkpost": "^2.0@beta"
     },
     "require-dev": {
-        "behat/mink": "~1.7",
-        "behat/mink-goutte-driver": "~1.2",
-        "mikey179/vfsStream": "~1.2"
     },
     "conflict": {
         "drupal/drupal": "*"
