@@ -19,15 +19,15 @@
         "composer/installers": "^v1.4.0",
         "drupal-composer/drupal-scaffold": "^2.0.1",
         "cweagans/composer-patches": "~1.0",
-        "drupal/core": "~8.3.7",
-        "drush/drush": "~8.1.13",
         "drupal/console": "~1.0.0",
         "drupal/admin_toolbar": "^1.19.0",
         "drupal/coffee": "^1.0@beta",
         "drupal/reroute_email": "^1.0@beta",
         "php-http/guzzle6-adapter": "~1.1",
         "drupal/email_registration": "^1.0@RC",
-        "drupal/sparkpost": "^2.0@beta"
+        "drupal/sparkpost": "^2.0@beta",
+        "drupal/core": "^8.4",
+        "drush/drush": "^9-rc"
     },
     "require-dev": {
     },
