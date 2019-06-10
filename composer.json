@@ -19,7 +19,7 @@
         "composer/installers": "^v1.4.0",
         "drupal-composer/drupal-scaffold": "^2.0.1",
         "cweagans/composer-patches": "~1.0",
-        "drupal/console": "~1.0.0",
+        "drupal/console": "~1.9.0",
         "drupal/admin_toolbar": "^1.19.0",
         "drupal/coffee": "^1.0@beta",
         "drupal/reroute_email": "^1.0@beta",
