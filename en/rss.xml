@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="http://drupalcamp-2016.localhost/en/rss.xml">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://oslo2016.drupalcamp.no/en/rss.xml">
   <channel>
     <title>Drupal</title>
-    <link>http://drupalcamp-2016.localhost/en/rss.xml</link>
+    <link>https://oslo2016.drupalcamp.no/en/rss.xml</link>
     <description/>
     <language>en</language>
     

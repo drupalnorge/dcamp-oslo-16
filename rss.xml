@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="http://drupalcamp-2016.localhost/rss.xml">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://oslo2016.drupalcamp.no/rss.xml">
   <channel>
     <title>Drupalcamp Oslo</title>
-    <link>http://drupalcamp-2016.localhost/rss.xml</link>
+    <link>https://oslo2016.drupalcamp.no/rss.xml</link>
     <description/>
     <language>nb</language>
     
     <item>
   <title>Middag på lørdagskvelden</title>
-  <link>http://drupalcamp-2016.localhost/node/19</link>
+  <link>https://oslo2016.drupalcamp.no/node/19</link>
   <description>&lt;span&gt;Middag på lørdagskvelden&lt;/span&gt;
 
             &lt;div&gt;&lt;p&gt;Lørdag kveld etter årsmøtet går vi ut og spiser middag sammen på &lt;a href="http://smelteverketoslo.no/" target="_blank"&gt;smelteverketoslo.no&lt;/a&gt; der vi håper så mange som mulig blir med.&lt;/p&gt;
@@ -21,11 +21,11 @@
 </description>
   <pubDate>Fri, 11 Nov 2016 08:31:17 +0000</pubDate>
     <dc:creator>admin</dc:creator>
-    <guid isPermaLink="false">19 at http://drupalcamp-2016.localhost</guid>
+    <guid isPermaLink="false">19 at https://oslo2016.drupalcamp.no</guid>
     </item>
 <item>
   <title>Sponsor?</title>
-  <link>http://drupalcamp-2016.localhost/sponsor</link>
+  <link>https://oslo2016.drupalcamp.no/sponsor</link>
   <description>&lt;span&gt;Sponsor?&lt;/span&gt;
 
             &lt;div&gt;&lt;p&gt;De største og ledende Drupal-byråene i Norge sponser og støtter Drupal Norge og DrupalCamp Oslo. &lt;/p&gt;
@@ -42,11 +42,11 @@
 </description>
   <pubDate>Wed, 26 Oct 2016 08:20:53 +0000</pubDate>
     <dc:creator>thorandre</dc:creator>
-    <guid isPermaLink="false">15 at http://drupalcamp-2016.localhost</guid>
+    <guid isPermaLink="false">15 at https://oslo2016.drupalcamp.no</guid>
     </item>
 <item>
   <title>Åpent for session forslag!</title>
-  <link>http://drupalcamp-2016.localhost/node/1</link>
+  <link>https://oslo2016.drupalcamp.no/node/1</link>
   <description>&lt;span&gt;Åpent for session forslag!&lt;/span&gt;
 
             &lt;div&gt;&lt;p&gt;Man kan nå sende inn forslag til sessions. Dette gjøres via disse nettsidene.&lt;/p&gt;
@@ -58,7 +58,7 @@
 </description>
   <pubDate>Thu, 08 Sep 2016 18:50:50 +0000</pubDate>
     <dc:creator>admin</dc:creator>
-    <guid isPermaLink="false">1 at http://drupalcamp-2016.localhost</guid>
+    <guid isPermaLink="false">1 at https://oslo2016.drupalcamp.no</guid>
     </item>
 
   </channel>
