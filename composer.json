@@ -17,19 +17,23 @@
     ],
     "require": {
         "composer/installers": "^v1.4.0",
-        "drupal-composer/drupal-scaffold": "^2.0.1",
         "cweagans/composer-patches": "~1.0",
-        "drupal/console": "~v1.9.0",
+        "drupal-composer/drupal-scaffold": "^2.0.1",
         "drupal/admin_toolbar": "^1.19.0",
         "drupal/coffee": "^1.0@beta",
-        "drupal/reroute_email": "^1.0@beta",
-        "php-http/guzzle6-adapter": "~1.1",
+        "drupal/console": "~v1.9.0",
+        "drupal/core": "~8.5",
         "drupal/email_registration": "^1.0@RC",
+        "drupal/reroute_email": "^1.0@beta",
         "drupal/sparkpost": "^2.0@beta",
-        "drupal/core": "^8.4",
-        "drush/drush": "^9-rc"
+        "drupal/tome": "^1.2",
+        "drush/drush": "^9-rc",
+        "php-http/guzzle6-adapter": "~1.1"
     },
     "require-dev": {
+    },
+    "config": {
+      "sort-packages": true
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -64,6 +68,7 @@
       ]
     },
     "extra": {
+        "composer-exit-on-patch-failure": true,
         "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library"],
@@ -71,13 +76,6 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
-        },
-        "patches": {
-          "drupal/core": {
-            "SA-CORE-2018-002": "https://cgit.drupalcode.org/drupal/patch/?id=88e134084c440adf7a977f410f603e1effe795c6",
-            "SA-CORE-2018-004": "https://cgit.drupalcode.org/drupal/rawdiff/?h=8.5.x&id=bb6d396609600d1169da29456ba3db59abae4b7e"
-
-          }
         }
     }
 }

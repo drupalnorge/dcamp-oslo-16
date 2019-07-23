@@ -718,4 +718,7 @@ if (file_exists(__DIR__ . '/settings.local.php')) {
   include __DIR__ . '/settings.local.php';
 }
 $settings['install_profile'] = 'minimal';
+$settings['tome_files_directory'] = '../files';
+$settings['tome_content_directory'] = '../content';
+$settings['tome_static_directory'] = '../html';
 $config_directories['sync'] = '../config';

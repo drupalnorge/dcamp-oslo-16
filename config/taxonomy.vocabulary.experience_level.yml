@@ -5,5 +5,4 @@ dependencies: {  }
 name: 'Experience level'
 vid: experience_level
 description: 'Used to describe the experience level of a session'
-hierarchy: 0
 weight: 0
