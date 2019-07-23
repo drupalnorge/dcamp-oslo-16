@@ -1,9 +1,0 @@
-uuid: 9850b5c7-fac6-414a-9cbf-40fda6464dfe
-langcode: nb
-status: true
-_core:
-  default_config_hash: 5VpawMrKPEPCkoO4YpPa0TDFO2dgiIHfTziJtwlmUxc
-id: html_yearless_date
-label: 'HTML Yearless date'
-locked: true
-pattern: m-d

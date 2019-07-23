@@ -1,9 +1,0 @@
-uuid: d92abb7a-158a-4e98-8bb5-07cfe9da1094
-langcode: nb
-status: true
-_core:
-  default_config_hash: 7yrlW5z9zdg2eBucB2GPqXKSMQfH9lSRSO4DbWF7AFc
-id: footer
-label: Footer
-description: 'Site information links'
-locked: true

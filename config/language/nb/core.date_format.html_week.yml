@@ -1,9 +1,0 @@
-uuid: 4a17b8e4-516a-4150-bbee-45fc6194f920
-langcode: nb
-status: true
-_core:
-  default_config_hash: wKD4WsoV_wFgv2vgI4mcAAFSIzrye17ykzdwrnApkfY
-id: html_week
-label: 'HTML Week'
-locked: true
-pattern: Y-\WW
